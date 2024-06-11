@@ -1,0 +1,355 @@
+@font-face {
+  font-family: 'Intro';
+  src: url("../fonts/2CA963-6-0.woff2") format("woff2"), url("../fonts/2CA963-6-0.woff") format("woff"), url("../fonts/2CA963-6-0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url("../fonts/2CA963-7-0.woff2") format("woff2"), url("../fonts/2CA963-7-0.woff") format("woff"), url("../fonts/2CA963-7-0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url("../fonts/2CA963-0-0.woff2") format("woff2"), url("../fonts/2CA963-0-0.woff") format("woff"), url("../fonts/2CA963-0-0.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url("../fonts/2CA963-1-0.woff2") format("woff2"), url("../fonts/2CA963-1-0.woff") format("woff"), url("../fonts/2CA963-1-0.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url("../fonts/2CA963-3-0.woff2") format("woff2"), url("../fonts/2CA963-3-0.woff") format("woff"), url("../fonts/2CA963-3-0.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url("../fonts/2CA963-5-0.woff2") format("woff2"), url("../fonts/2CA963-5-0.woff") format("woff"), url("../fonts/2CA963-5-0.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url("../fonts/2CA963-9-0.woff2") format("woff2"), url("../fonts/2CA963-9-0.woff") format("woff"), url("../fonts/2CA963-9-0.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url("../fonts/2CA963-B-0.woff2") format("woff2"), url("../fonts/2CA963-B-0.woff") format("woff"), url("../fonts/2CA963-B-0.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Support Older IE */
+@font-face {
+  font-family: 'IntroOldIE';
+  src: url("../fonts/2CA963-6-0.eot") format("embedded-opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IntroOldIE';
+  src: url("../fonts/2CA963-7-0.eot") format("embedded-opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'IntroOldIE';
+  src: url("../fonts/2CA963-0-0.eot") format("embedded-opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IntroOldIE';
+  src: url("../fonts/2CA963-1-0.eot") format("embedded-opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'IntroOldIE';
+  src: url("../fonts/2CA963-3-0.eot") format("embedded-opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IntroOldIE';
+  src: url("../fonts/2CA963-5-0.eot") format("embedded-opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'IntroOldIE';
+  src: url("../fonts/2CA963-9-0.eot") format("embedded-opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IntroOldIE';
+  src: url("../fonts/2CA963-B-0.eot") format("embedded-opentype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Caps Needs to be a Separate Family */
+@font-face {
+  font-family: 'IntroCaps';
+  src: url("../fonts/2CA963-4-0.eot");
+  src: url("../fonts/2CA963-4-0.eot?#iefix") format("embedded-opentype"), url("../fonts/2CA963-4-0.woff") format("woff"), url("../fonts/2CA963-4-0.woff2") format("woff2"), url("../fonts/2CA963-4-0.ttf") format("truetype"), url("../fonts/2CA963-4-0.svg#wf") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IntroCaps';
+  src: url("../fonts/2CA963-8-0.eot");
+  src: url("../fonts/2CA963-8-0.eot?#iefix") format("embedded-opentype"), url("../fonts/2CA963-8-0.woff") format("woff"), url("../fonts/2CA963-8-0.woff2") format("woff2"), url("../fonts/2CA963-8-0.ttf") format("truetype"), url("../fonts/2CA963-8-0.svg#wf") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IntroCaps';
+  src: url("../fonts/2CA963-A-0.eot");
+  src: url("../fonts/2CA963-A-0.eot?#iefix") format("embedded-opentype"), url("../fonts/2CA963-A-0.woff") format("woff"), url("../fonts/2CA963-A-0.woff2") format("woff2"), url("../fonts/2CA963-A-0.ttf") format("truetype"), url("../fonts/2CA963-A-0.svg#wf") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IntroCaps';
+  src: url("../fonts/2CA963-2-0.eot");
+  src: url("../fonts/2CA963-2-0.eot?#iefix") format("embedded-opentype"), url("../fonts/2CA963-2-0.woff") format("woff"), url("../fonts/2CA963-2-0.woff2") format("woff2"), url("../fonts/2CA963-2-0.ttf") format("truetype"), url("../fonts/2CA963-2-0.svg#wf") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* New intro variations for the new consumer nav */
+@font-face {
+  font-family: "Intro Light W05";
+  src: url("../fonts/97e479cd-7898-467c-9075-82c1d8faa40c.woff2") format("woff2"), url("../fonts/6170170b-3d7c-4b22-b99e-51fdd74bc644.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Intro Regular W05";
+  src: url("../fonts/3212d085-bd6a-4e52-a1a3-41cf21fd5e97.woff2") format("woff2"), url("../fonts/59550b43-38c4-4a50-996a-3d9595e7c875.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Intro Condensed W05";
+  src: url("../fonts/ae71928a-4836-46d9-97e5-a02cfc9f4613.woff2") format("woff2"), url("../fonts/ddf60796-5158-422c-963e-95a36e536d3c.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.download {
+  &-banner {
+    position: relative;
+
+    &-body {
+      padding: 80px 0;
+    }
+
+    &-title {
+      font-family: 'Intro';
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 64px;
+      color: #262626;
+      margin-bottom: 32px;
+
+      @media(max-width: 575px) {
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom: 24px;
+      }
+
+      .highlight {
+        position: relative;
+
+        &:after {
+          position: absolute;
+          content: '';
+          height: 10px;
+          background-color: #FCD800;
+          bottom: 10px;
+          left: 0;
+          right: 0;
+          z-index: -1;
+
+          @media(max-width: 575px) {
+            height: 6px;
+            bottom: 6px;
+          }
+        }
+      }
+    }
+
+    &-image {
+      background-color: #F7F9FA;
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 41.66%;
+
+      @media(max-width: 768px) {
+        position: relative;
+        width: 100%;
+      }
+    }
+
+    &-bg {
+      background-image: url('../images/app-download-bg.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center bottom;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 0;
+    }
+  }
+
+  &-cta {
+    margin-bottom: 32px;
+
+    &-title {
+      font-family: 'Intro';
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-bottom: 12px;
+
+      @media(max-width: 575px) {
+        margin-bottom: 8px;
+      }
+    }
+
+    &-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      .item {
+        a {
+          display: block;
+          width: 160px;
+          height: 46px;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  &-qr {
+    &-row {
+      display: flex;
+      align-items: center;
+
+      @media(max-width: 575px) {
+        flex-wrap: wrap;
+      }
+
+      .left {
+        @media(max-width: 575px) {
+          width: 100%;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+
+      .right {
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+
+        @media(max-width: 575px) {
+          padding-left: 0;
+          padding-top: 30px;
+        }
+
+        .item {
+          &:not(:last-child) {
+            padding-right: 24px;
+            margin-right: 24px;
+            position: relative;
+
+            &:after {
+              position: absolute;
+              content: '';
+              top: 50%;
+              right: 0;
+              transform: translateY(-50%);
+              width: 1px;
+              height: 50px;
+              background-color: #00A6CA;
+            }
+          }
+
+          &-number {
+            font-family: 'Intro';
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 42px;
+            margin-bottom: 2px;
+
+            @media(max-width: 575px) {
+              font-size: 24px;
+              line-height: 32px;
+            }
+          }
+
+          &-name {
+            font-family: 'Intro';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            margin-bottom: 2px;
+          }
+
+          &-desc {
+            font-family: 'Intro';
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 14px;
+            color: #595959;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
